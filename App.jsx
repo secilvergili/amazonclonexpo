@@ -7,7 +7,7 @@ import { StatusBar } from 'react-native';
 const App = () => {
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: "#9ee4d4" }}>
-      <StatusBar barStyle/>
+      <StatusBar barStyle={"dark-content"} />
     <NavigationContainer>
       <RootNavigation />
     </NavigationContainer>
